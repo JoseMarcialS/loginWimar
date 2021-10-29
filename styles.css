@@ -15,6 +15,7 @@ h3{
 	margin:0px;
 	font-weight: 100;
 }
+
 body{
 	background:#000;
 	background:url("images/bg-init.jpg");
@@ -129,7 +130,7 @@ form{
 	width:100%!important;
 }
 #inner_table td{
-	color:rgba(255,255,255)!important;
+	color:rgba(255, 255, 255, 0.322)!important;
 }
 #inner_table a{
 	color:rgba(255,255,255)!important;
@@ -309,4 +310,19 @@ form{
 		margin-top:-50px;
 		white-space:nowrap;
 	}
+}
+
+/*** mis css
+*/
+
+.bg-prueba{
+	background: rgba(255, 255, 255, 0.192);
+	border-top: none;
+}
+
+.table td, .table th {
+	border-radius: 10px 10px 10px 10px;
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 0px solid #dee2e6;
 }
