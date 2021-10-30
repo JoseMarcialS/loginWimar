@@ -17,10 +17,12 @@ h3{
 }
 
 body{
-	/*background:#ebebeb;*/
+	background:#ebebeb;
+	/*background: #000428; 
+	background: -webkit-linear-gradient(to right, #000428, #004e92);*/ /* Chrome 10-25, Safari 5.1-6 */
+	/*background: linear-gradient(to right, #000428, #004e92);*/
 	background:url("images/bg-init.jpg");
 	background-position: bottom;
-	background-color: #555555f1;
 	/*background-size:100% 100%;*/
 	background-attachment:fixed;
 	color:rgb(0, 0, 0);
