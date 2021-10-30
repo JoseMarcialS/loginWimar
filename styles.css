@@ -17,15 +17,19 @@ h3{
 }
 
 body{
-	background:#ebebeb;
-	/*background:url("images/bg-init.jpg");*/
-	background-size:100% 100%;
+	/*background:#ebebeb;*/
+	background:url("images/bg-init.jpg");
+	background-position: bottom;
+	background-color: #555555f1;
+	/*background-size:100% 100%;*/
 	background-attachment:fixed;
 	color:rgb(0, 0, 0);
 	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
     font-weight:100;
 	-webkit-font-smoothing: antialiased;
 	margin:0px;
+	width: 100%;
+	height: auto;
 }
 hr{
 	width:40%;
@@ -341,7 +345,7 @@ form{
 	background: rgb(255, 255, 255);
 	border-top: none;
 	border-radius: 8px 8px 8px 8px;
-	box-shadow: 10px 10px 17px 0px rgba(214,214,214,1);
+	/*box-shadow: 10px 10px 17px 0px rgba(214,214,214,1);*/
 	width: 350px;
 }
 
