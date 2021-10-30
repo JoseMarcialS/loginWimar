@@ -11,3 +11,7 @@ Login para fichas Wi-Mar
 
 correo contacto: jose.marcial@protonmail.com
 
+## Uso
+
+- Renombrar index.html a login.html
+- Comprimir en un archivo .zip los archivos login.html styles.css y carpeta images
